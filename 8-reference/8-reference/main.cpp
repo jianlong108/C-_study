@@ -42,7 +42,7 @@ using namespace std;
  */
 
 enum Season{
-  spring,
+    spring,
     summer,
     fall,
     winter
