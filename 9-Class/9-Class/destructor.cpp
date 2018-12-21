@@ -30,9 +30,11 @@ Student::Student(int score)
     cout << "Student::Student(int score)" <<endl;
 }
 
+//析构函数 释放掉Student对象内部申请的堆空间
 Student::~Student()
 {
     //释放掉内部申请的堆空间内存
+    delete this->p;
     cout << "~Student()" <<endl;
 }
 

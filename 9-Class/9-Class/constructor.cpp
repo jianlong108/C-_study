@@ -21,13 +21,18 @@ Your real problem is that you forgot to tell the compiler "I'm going to give thi
 //error1: 'Person' is missing exception specification 'noexcept'
 Person::Person()
 {
-    cout << "Person::Person()" <<endl;
+    cout << "Person()" <<endl;
 }
 
 Person::Person(int age)
 {
     this ->m_age = age;
-    cout << "Person::Person(int age)" <<endl;
+    cout << "Person(int age)" <<endl;
+}
+
+Person::~ Person()
+{
+    cout << "~ Person()" <<endl;
 }
 
 void Person::setAge(int age)

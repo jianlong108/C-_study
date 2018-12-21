@@ -17,11 +17,15 @@ using namespace std;
 
 
 //全局区
-Person g_person;//1调用构造函数Person() //成员变量初始化为0
+//Person g_person;//1调用构造函数Person() //成员变量初始化为0
+//
+//Person g_person1();//函数声明
+//Person g_preseon2(10);//2构造函数Person(int age)
 
-Person g_person1();//函数声明
-Person g_preseon2(10);//2构造函数Person(int age)
-
+void deallocTest(){
+    
+    Student s(10);
+}
 
 int main(int argc, const char * argv[]) {
    
@@ -37,7 +41,7 @@ int main(int argc, const char * argv[]) {
 //    initTest();
     
     //栈空间申请内存
-    Person p;//3.调用构造函数Person()
+//    Person p;//3.调用构造函数Person()
 //    cout << p.getAge() << endl;
     
     //堆空间
@@ -58,14 +62,13 @@ int main(int argc, const char * argv[]) {
 //    cout << mallocP->getAge() << endl;
     
     
-    Person person1();//函数声明
-    Person person2(66);//4.构造函数Person(int age)
+//    Person person1();//函数声明
+//    Person person2(66);//4.构造函数Person(int age)
+//    
+//    Person *pp1 = new Person;//5.调用构造函数Person()
+//    Person *pp2 = new Person();//6.调用构造函数Person()
+//    Person *pp3 = new Person(688);//7.构造函数Person(int age)
     
-    Person *pp1 = new Person;//5.调用构造函数Person()
-    Person *pp2 = new Person();//6.调用构造函数Person()
-    Person *pp3 = new Person(688);//7.构造函数Person(int age)
-    
-    Student s;
-    
+    deallocTest();
     return 0;
 }

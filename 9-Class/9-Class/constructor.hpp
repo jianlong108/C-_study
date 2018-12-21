@@ -17,6 +17,7 @@ class Person {
 public:
     Person();//error1 必须声明一个自定义的
     Person(int age);
+    ~Person();
     void setAge(int age);
     int getAge();
 };
