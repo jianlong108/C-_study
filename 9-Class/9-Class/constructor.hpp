@@ -22,13 +22,13 @@ public:
     int getAge();
 };
 
-class Man {
-    float m_height;
+class Student : Person{
+    float m_score;
     
 public:
     
-    void setHeight(float height);
-    float getHeight();
+    void setScore(float score);
+    float getScore();
 };
 
 #endif /* constructor_hpp */

@@ -45,4 +45,12 @@ int Person::getAge()
     return this->m_age ;
 }
 
+void Student::setScore(float score)
+{
+    this->m_score = score;
+}
 
+float Student::getScore()
+{
+    return this->m_score;
+}
