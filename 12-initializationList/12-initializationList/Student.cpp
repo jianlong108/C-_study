@@ -8,22 +8,9 @@
 
 #include "Student.hpp"
 
-//Student::Student()
-//{
-//    cout << "Student()" << endl;
-//}
-
-
-//Constructor for 'Student' must explicitly initialize the base class 'Person' which does not have a default constructor
-//Student::Student(float score):m_score(score)
-//{
-////    this ->m_score = score;
-//    cout << "Student(float score)" << endl;
-//}
-
 Student::Student(float score,int age,float height):m_score(score),Person(age,height)
 {
-    
+    cout << "Student(float score,int age,float height)" << endl;
 }
 
 Student::Student(float score):m_score(score),Person(0,0)
@@ -31,4 +18,7 @@ Student::Student(float score):m_score(score),Person(0,0)
     cout << "Student(float score)" << endl;
 }
 
-
+void Student::running()
+{
+    cout << "Student::running()" << endl;
+}

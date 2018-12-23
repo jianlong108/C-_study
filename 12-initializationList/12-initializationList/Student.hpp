@@ -20,6 +20,8 @@ public:
     
     Student(float score);
     Student(float score,int age,float height);
+    
+    void running();
 };
 
 #endif /* Student_hpp */

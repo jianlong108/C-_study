@@ -14,3 +14,8 @@ Person::Person(int age, float height):m_age(age),m_height(height)
     cout << "age = " << this->m_age << endl;
     cout << "height = " << this->m_height << endl;
 }
+
+void Person::running()
+{
+    cout << "Person::running()" << endl;
+}
