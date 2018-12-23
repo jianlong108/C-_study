@@ -73,7 +73,8 @@ public:
 //    };
     
     //默认参数只能写在声明中
-    Person(int age = 1, float height = 0.8);
+//    Person(int age = 1, float height = 0.8);
+    Person(int age, float height);
 };
 
 #endif /* Person_hpp */
