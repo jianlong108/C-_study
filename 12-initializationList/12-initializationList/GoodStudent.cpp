@@ -18,3 +18,7 @@ GoodStudent::GoodStudent(float cash):Student(0)
     this ->m_cash = cash;
     cout << "GoodStudent(float cash)" << endl;
 }
+void GoodStudent::running()
+{
+    cout << "GoodStudent::running()" << endl;
+}

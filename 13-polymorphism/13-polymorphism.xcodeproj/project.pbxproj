@@ -10,6 +10,7 @@
 		F440242021CF9F6E009E5DE9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F440241F21CF9F6E009E5DE9 /* main.cpp */; };
 		F440242A21CF9F7C009E5DE9 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F440242821CF9F7B009E5DE9 /* Person.cpp */; };
 		F440242B21CF9F7C009E5DE9 /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F440242921CF9F7C009E5DE9 /* Student.cpp */; };
+		F440242E21CFAA5A009E5DE9 /* GoodStudent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F440242C21CFAA5A009E5DE9 /* GoodStudent.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		F440242721CF9F7B009E5DE9 /* Student.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Student.hpp; path = "../../12-initializationList/12-initializationList/Student.hpp"; sourceTree = "<group>"; };
 		F440242821CF9F7B009E5DE9 /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Person.cpp; path = "../../12-initializationList/12-initializationList/Person.cpp"; sourceTree = "<group>"; };
 		F440242921CF9F7C009E5DE9 /* Student.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Student.cpp; path = "../../12-initializationList/12-initializationList/Student.cpp"; sourceTree = "<group>"; };
+		F440242C21CFAA5A009E5DE9 /* GoodStudent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GoodStudent.cpp; path = "../../12-initializationList/12-initializationList/GoodStudent.cpp"; sourceTree = "<group>"; };
+		F440242D21CFAA5A009E5DE9 /* GoodStudent.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GoodStudent.hpp; path = "../../12-initializationList/12-initializationList/GoodStudent.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				F440242621CF9F7B009E5DE9 /* Person.hpp */,
 				F440242921CF9F7C009E5DE9 /* Student.cpp */,
 				F440242721CF9F7B009E5DE9 /* Student.hpp */,
+				F440242C21CFAA5A009E5DE9 /* GoodStudent.cpp */,
+				F440242D21CFAA5A009E5DE9 /* GoodStudent.hpp */,
 			);
 			path = "13-polymorphism";
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F440242E21CFAA5A009E5DE9 /* GoodStudent.cpp in Sources */,
 				F440242B21CF9F7C009E5DE9 /* Student.cpp in Sources */,
 				F440242A21CF9F7C009E5DE9 /* Person.cpp in Sources */,
 				F440242021CF9F6E009E5DE9 /* main.cpp in Sources */,

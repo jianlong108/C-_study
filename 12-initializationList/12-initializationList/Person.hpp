@@ -19,7 +19,7 @@ class Person {
     
 public:
     Person(int age, float height);
-    void running();
+     void running();
 };
 
 #endif /* Person_hpp */

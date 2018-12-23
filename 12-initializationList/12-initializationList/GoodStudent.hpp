@@ -18,6 +18,7 @@ class GoodStudent : public Student {
 public:
 //    GoodStudent();
     GoodStudent(float cash);
+    void running();
 };
 
 #endif /* GoodStudent_hpp */
