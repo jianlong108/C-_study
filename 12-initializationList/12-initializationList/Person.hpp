@@ -15,7 +15,7 @@ using namespace std;
 
 class Person {
     int m_age;
-    int m_height;
+    float m_height;
     
 public:
 //    Person(){
@@ -66,12 +66,14 @@ public:
     
     //标准的初始化
     //在调用Person()时,去调用另一个初始化方法Person(int age, int height)
-    Person():Person(1,1){};
-    Person(int age, int height):m_age(age),m_height(height){
-        cout << "age =" << this->m_age << endl;
-        cout << "height =" << this->m_height << endl;
-    };
+//    Person():Person(1,1){};
+//    Person(int age, int height):m_age(age),m_height(height){
+//        cout << "age =" << this->m_age << endl;
+//        cout << "height =" << this->m_height << endl;
+//    };
     
+    //默认参数只能写在声明中
+    Person(int age = 1, float height = 0.8);
 };
 
 #endif /* Person_hpp */

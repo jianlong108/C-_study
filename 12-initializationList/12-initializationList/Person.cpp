@@ -7,3 +7,10 @@
 //
 
 #include "Person.hpp"
+
+//初始化列表只能写在实现中
+Person::Person(int age, float height):m_age(age),m_height(height)
+{
+    cout << "age = " << this->m_age << endl;
+    cout << "height = " << this->m_height << endl;
+}
