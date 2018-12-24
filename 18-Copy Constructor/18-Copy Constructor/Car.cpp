@@ -18,6 +18,7 @@ using namespace std;
 
 Car::Car(const Car&car)
 {
+    this->m_speed = car.m_speed;
     cout << "Car(const Car&car)" << endl;
 }
 
