@@ -30,9 +30,8 @@
 *.exe
 *.out
 *.app
-# *.xcodeproj/xcuserdata/
-# */project.xcworkspace/
-# xcschememanagement.plist
-# /project.xcworkspace/
-# /xcuserdata/
+
+# https://www.cnblogs.com/kevingrace/p/5690241.html
+
+xcschememanagement.plist
 **/project.xcworkspace
