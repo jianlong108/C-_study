@@ -9,10 +9,9 @@
 #ifndef Car_hpp
 #define Car_hpp
 
-#include <stdio.h>
-#include <iostream>
+#include "Object.hpp"
 
-class Car {
+class Car : public Object{
     /*
     引用类型成员变量必须初始化(不考虑static情况)
     在声明的时候直接初始化
@@ -30,6 +29,7 @@ public:
      > 拷贝构造函数的格式是固定的，接收一个const引用作为参数
      */
     Car(const Car &car);
+    Car(int referenceCount,int speed);
 };
 
 #endif /* Car_hpp */

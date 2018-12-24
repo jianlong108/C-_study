@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3441600921D0D0B000AF2479 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3441600821D0D0B000AF2479 /* main.cpp */; };
 		3441601121D0D0C000AF2479 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3441600F21D0D0C000AF2479 /* Car.cpp */; };
+		F440245321D11A97009E5DE9 /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F440245121D11A97009E5DE9 /* Object.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		3441600821D0D0B000AF2479 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3441600F21D0D0C000AF2479 /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
 		3441601021D0D0C000AF2479 /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
+		F440245121D11A97009E5DE9 /* Object.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cpp; sourceTree = "<group>"; };
+		F440245221D11A97009E5DE9 /* Object.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Object.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				3441600821D0D0B000AF2479 /* main.cpp */,
 				3441600F21D0D0C000AF2479 /* Car.cpp */,
 				3441601021D0D0C000AF2479 /* Car.hpp */,
+				F440245121D11A97009E5DE9 /* Object.cpp */,
+				F440245221D11A97009E5DE9 /* Object.hpp */,
 			);
 			path = "18-Copy Constructor";
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			files = (
 				3441601121D0D0C000AF2479 /* Car.cpp in Sources */,
 				3441600921D0D0B000AF2479 /* main.cpp in Sources */,
+				F440245321D11A97009E5DE9 /* Object.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
