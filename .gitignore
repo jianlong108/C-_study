@@ -32,3 +32,6 @@
 *.app
 *.xcodeproj/xcuserdata/
 */project.xcworkspace/
+xcschememanagement.plist
+/project.xcworkspace/
+/xcuserdata/
