@@ -35,3 +35,4 @@
 xcschememanagement.plist
 /project.xcworkspace/
 /xcuserdata/
+**/project.xcworkspace
