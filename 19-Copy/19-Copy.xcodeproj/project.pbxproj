@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3441600921D0D0B000AF2479 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3441600821D0D0B000AF2479 /* main.cpp */; };
-		3441601121D0D0C000AF2479 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3441600F21D0D0C000AF2479 /* Car.cpp */; };
-		F440245321D11A97009E5DE9 /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F440245121D11A97009E5DE9 /* Object.cpp */; };
+		F440246121D11E62009E5DE9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F440246021D11E62009E5DE9 /* main.cpp */; };
+		F440246921D11E6B009E5DE9 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F440246721D11E6B009E5DE9 /* Car.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3441600321D0D0B000AF2479 /* CopyFiles */ = {
+		F440245B21D11E62009E5DE9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3441600521D0D0B000AF2479 /* 18-Copy Constructor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18-Copy Constructor"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3441600821D0D0B000AF2479 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		3441600F21D0D0C000AF2479 /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
-		3441601021D0D0C000AF2479 /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
-		F440245121D11A97009E5DE9 /* Object.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cpp; sourceTree = "<group>"; };
-		F440245221D11A97009E5DE9 /* Object.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Object.hpp; sourceTree = "<group>"; };
+		F440245D21D11E62009E5DE9 /* 19-Copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-Copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F440246021D11E62009E5DE9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F440246721D11E6B009E5DE9 /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		F440246821D11E6B009E5DE9 /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3441600221D0D0B000AF2479 /* Frameworks */ = {
+		F440245A21D11E62009E5DE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,100 +41,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34415FFC21D0D0B000AF2479 = {
+		F440245421D11E62009E5DE9 = {
 			isa = PBXGroup;
 			children = (
-				3441600721D0D0B000AF2479 /* 18-Copy Constructor */,
-				3441600621D0D0B000AF2479 /* Products */,
+				F440245F21D11E62009E5DE9 /* 19-Copy */,
+				F440245E21D11E62009E5DE9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3441600621D0D0B000AF2479 /* Products */ = {
+		F440245E21D11E62009E5DE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3441600521D0D0B000AF2479 /* 18-Copy Constructor */,
+				F440245D21D11E62009E5DE9 /* 19-Copy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3441600721D0D0B000AF2479 /* 18-Copy Constructor */ = {
+		F440245F21D11E62009E5DE9 /* 19-Copy */ = {
 			isa = PBXGroup;
 			children = (
-				3441600821D0D0B000AF2479 /* main.cpp */,
-				3441600F21D0D0C000AF2479 /* Car.cpp */,
-				3441601021D0D0C000AF2479 /* Car.hpp */,
-				F440245121D11A97009E5DE9 /* Object.cpp */,
-				F440245221D11A97009E5DE9 /* Object.hpp */,
+				F440246021D11E62009E5DE9 /* main.cpp */,
+				F440246721D11E6B009E5DE9 /* Car.cpp */,
+				F440246821D11E6B009E5DE9 /* Car.hpp */,
 			);
-			path = "18-Copy Constructor";
+			path = "19-Copy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3441600421D0D0B000AF2479 /* 18-Copy Constructor */ = {
+		F440245C21D11E62009E5DE9 /* 19-Copy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3441600C21D0D0B000AF2479 /* Build configuration list for PBXNativeTarget "18-Copy Constructor" */;
+			buildConfigurationList = F440246421D11E62009E5DE9 /* Build configuration list for PBXNativeTarget "19-Copy" */;
 			buildPhases = (
-				3441600121D0D0B000AF2479 /* Sources */,
-				3441600221D0D0B000AF2479 /* Frameworks */,
-				3441600321D0D0B000AF2479 /* CopyFiles */,
+				F440245921D11E62009E5DE9 /* Sources */,
+				F440245A21D11E62009E5DE9 /* Frameworks */,
+				F440245B21D11E62009E5DE9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "18-Copy Constructor";
-			productName = "18-Copy Constructor";
-			productReference = 3441600521D0D0B000AF2479 /* 18-Copy Constructor */;
+			name = "19-Copy";
+			productName = "19-Copy";
+			productReference = F440245D21D11E62009E5DE9 /* 19-Copy */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		34415FFD21D0D0B000AF2479 /* Project object */ = {
+		F440245521D11E62009E5DE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = wangjianlong;
+				ORGANIZATIONNAME = JL.Com;
 				TargetAttributes = {
-					3441600421D0D0B000AF2479 = {
+					F440245C21D11E62009E5DE9 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 3441600021D0D0B000AF2479 /* Build configuration list for PBXProject "18-Copy Constructor" */;
+			buildConfigurationList = F440245821D11E62009E5DE9 /* Build configuration list for PBXProject "19-Copy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 34415FFC21D0D0B000AF2479;
-			productRefGroup = 3441600621D0D0B000AF2479 /* Products */;
+			mainGroup = F440245421D11E62009E5DE9;
+			productRefGroup = F440245E21D11E62009E5DE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3441600421D0D0B000AF2479 /* 18-Copy Constructor */,
+				F440245C21D11E62009E5DE9 /* 19-Copy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3441600121D0D0B000AF2479 /* Sources */ = {
+		F440245921D11E62009E5DE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3441601121D0D0C000AF2479 /* Car.cpp in Sources */,
-				3441600921D0D0B000AF2479 /* main.cpp in Sources */,
-				F440245321D11A97009E5DE9 /* Object.cpp in Sources */,
+				F440246921D11E6B009E5DE9 /* Car.cpp in Sources */,
+				F440246121D11E62009E5DE9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3441600A21D0D0B000AF2479 /* Debug */ = {
+		F440246221D11E62009E5DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -169,7 +163,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -196,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		3441600B21D0D0B000AF2479 /* Release */ = {
+		F440246321D11E62009E5DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +222,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -248,18 +242,20 @@
 			};
 			name = Release;
 		};
-		3441600D21D0D0B000AF2479 /* Debug */ = {
+		F440246521D11E62009E5DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVAFMDWZJC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		3441600E21D0D0B000AF2479 /* Release */ = {
+		F440246621D11E62009E5DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVAFMDWZJC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -267,25 +263,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3441600021D0D0B000AF2479 /* Build configuration list for PBXProject "18-Copy Constructor" */ = {
+		F440245821D11E62009E5DE9 /* Build configuration list for PBXProject "19-Copy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3441600A21D0D0B000AF2479 /* Debug */,
-				3441600B21D0D0B000AF2479 /* Release */,
+				F440246221D11E62009E5DE9 /* Debug */,
+				F440246321D11E62009E5DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3441600C21D0D0B000AF2479 /* Build configuration list for PBXNativeTarget "18-Copy Constructor" */ = {
+		F440246421D11E62009E5DE9 /* Build configuration list for PBXNativeTarget "19-Copy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3441600D21D0D0B000AF2479 /* Debug */,
-				3441600E21D0D0B000AF2479 /* Release */,
+				F440246521D11E62009E5DE9 /* Debug */,
+				F440246621D11E62009E5DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 34415FFD21D0D0B000AF2479 /* Project object */;
+	rootObject = F440245521D11E62009E5DE9 /* Project object */;
 }
