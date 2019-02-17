@@ -32,6 +32,6 @@
 *.app
 
 # https://www.cnblogs.com/kevingrace/p/5690241.html
-
+.xcbkplist
 xcschememanagement.plist
 **/project.xcworkspace
