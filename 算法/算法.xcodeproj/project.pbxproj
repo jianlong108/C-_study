@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		341D2F012214F923007C30D1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 341D2F002214F923007C30D1 /* main.cpp */; };
+		34646851221A9DEC003AB5D2 /* 3-无重复字符的最长子串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3464684F221A9DEC003AB5D2 /* 3-无重复字符的最长子串.cpp */; };
+		34646854221A9F6D003AB5D2 /* 2- 两数相加.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34646852221A9F6D003AB5D2 /* 2- 两数相加.cpp */; };
+		34646857221AA02B003AB5D2 /* 1-两数之和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34646855221AA02B003AB5D2 /* 1-两数之和.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		341D2EFD2214F923007C30D1 /* 算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "算法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		341D2F002214F923007C30D1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3464684F221A9DEC003AB5D2 /* 3-无重复字符的最长子串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "3-无重复字符的最长子串.cpp"; sourceTree = "<group>"; };
+		34646850221A9DEC003AB5D2 /* 3-无重复字符的最长子串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "3-无重复字符的最长子串.hpp"; sourceTree = "<group>"; };
+		34646852221A9F6D003AB5D2 /* 2- 两数相加.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2- 两数相加.cpp"; sourceTree = "<group>"; };
+		34646853221A9F6D003AB5D2 /* 2- 两数相加.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "2- 两数相加.hpp"; sourceTree = "<group>"; };
+		34646855221AA02B003AB5D2 /* 1-两数之和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1-两数之和.cpp"; sourceTree = "<group>"; };
+		34646856221AA02B003AB5D2 /* 1-两数之和.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "1-两数之和.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				341D2F002214F923007C30D1 /* main.cpp */,
+				34646855221AA02B003AB5D2 /* 1-两数之和.cpp */,
+				34646856221AA02B003AB5D2 /* 1-两数之和.hpp */,
+				34646852221A9F6D003AB5D2 /* 2- 两数相加.cpp */,
+				34646853221A9F6D003AB5D2 /* 2- 两数相加.hpp */,
+				3464684F221A9DEC003AB5D2 /* 3-无重复字符的最长子串.cpp */,
+				34646850221A9DEC003AB5D2 /* 3-无重复字符的最长子串.hpp */,
 			);
 			path = "算法";
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34646857221AA02B003AB5D2 /* 1-两数之和.cpp in Sources */,
 				341D2F012214F923007C30D1 /* main.cpp in Sources */,
+				34646854221A9F6D003AB5D2 /* 2- 两数相加.cpp in Sources */,
+				34646851221A9DEC003AB5D2 /* 3-无重复字符的最长子串.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
