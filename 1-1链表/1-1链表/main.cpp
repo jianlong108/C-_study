@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "SingleLinkList.hpp"
+#include "Stack.hpp"
 
 using namespace std;
 
@@ -41,5 +42,8 @@ int main(int argc, const char * argv[]) {
         cout << p->val << endl;
         p = p->next;
     }
+    cout << "---------------------"<< endl;
+    string s = getTmpString(string("123abc4"));
+    cout << s << endl;
     return 0;
 }

@@ -11,17 +11,22 @@
 
 #include <stdio.h>
 #include <iostream>
+#include "Config.h"
 
-typedef enum : int {
-    Error,
-    OK,
-} Status;
+//定义单链表
 
-struct Node {
+//第一种写法
+//struct Node {
+//    int val;
+//    struct Node *next;
+//};
+//typedef struct Node *LinkList;
+
+//第二种写法
+typedef struct Node {
     int val;
     struct Node *next;
-};
-typedef struct Node* LinkList;
+}Node, *LinkList;
 
 
 void creatLinkListHead(LinkList *p,int n);
