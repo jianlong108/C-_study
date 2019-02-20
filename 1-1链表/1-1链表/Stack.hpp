@@ -15,7 +15,7 @@
 #include <string>
 //-------------------------------栈的顺序存储结构-----------------------
 //定义栈
-#define MAXSIZE 1000
+
 typedef struct {
     int data[MAXSIZE];
     int top;//用作栈顶指针
@@ -75,5 +75,6 @@ typedef struct LinkStackOperator
 }LinkStackOperator;
 
 std::string getTmpString(std::string s);
+
 
 #endif /* Stack_hpp */

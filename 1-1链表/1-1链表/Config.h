@@ -14,4 +14,6 @@ typedef enum : int {
     OK,
 } Status;
 
+#define MAXSIZE 1000
+
 #endif /* Config_h */

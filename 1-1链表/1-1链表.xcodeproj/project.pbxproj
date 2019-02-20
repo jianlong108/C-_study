@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3464685A221B94E0003AB5D2 /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34646858221B94E0003AB5D2 /* Stack.cpp */; };
+		3464685E221CF9D5003AB5D2 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3464685C221CF9D5003AB5D2 /* Queue.cpp */; };
 		F4FB2818221908C2004A81BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FB2817221908C2004A81BF /* main.cpp */; };
 		F4FB28222219178E004A81BF /* SingleLinkList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FB28202219178E004A81BF /* SingleLinkList.cpp */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,8 @@
 		34646858221B94E0003AB5D2 /* Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stack.cpp; sourceTree = "<group>"; };
 		34646859221B94E0003AB5D2 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		3464685B221BB272003AB5D2 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		3464685C221CF9D5003AB5D2 /* Queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
+		3464685D221CF9D5003AB5D2 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		F4FB2814221908C2004A81BF /* 1-1链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1-1链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FB2817221908C2004A81BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F4FB28202219178E004A81BF /* SingleLinkList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SingleLinkList.cpp; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 				F4FB28212219178E004A81BF /* SingleLinkList.hpp */,
 				34646858221B94E0003AB5D2 /* Stack.cpp */,
 				34646859221B94E0003AB5D2 /* Stack.hpp */,
+				3464685C221CF9D5003AB5D2 /* Queue.cpp */,
+				3464685D221CF9D5003AB5D2 /* Queue.hpp */,
 			);
 			path = "1-1链表";
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 				F4FB2818221908C2004A81BF /* main.cpp in Sources */,
 				F4FB28222219178E004A81BF /* SingleLinkList.cpp in Sources */,
 				3464685A221B94E0003AB5D2 /* Stack.cpp in Sources */,
+				3464685E221CF9D5003AB5D2 /* Queue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
