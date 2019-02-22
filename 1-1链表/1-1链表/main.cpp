@@ -9,6 +9,7 @@
 #include <iostream>
 #include "SingleLinkList.hpp"
 #include "Stack.hpp"
+#include "string.hpp"
 
 using namespace std;
 
@@ -43,7 +44,12 @@ int main(int argc, const char * argv[]) {
         p = p->next;
     }
     cout << "---------------------"<< endl;
-    string s = getTmpString(string("123abc4"));
-    cout << s << endl;
-    return 0;
+//    string s = getTmpString(string("123abc4"));
+//    cout << s << endl;
+    string s = string("123abc4acd");
+    string t = string("abc");
+    cout << t << "在主串："<<s <<"中的位置：" << indexSubString(s, t, 0) << endl;
+    cout << "---------------------"<< endl;
+    
+     return 0;
 }
