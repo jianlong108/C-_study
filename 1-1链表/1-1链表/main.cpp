@@ -10,6 +10,7 @@
 #include "SingleLinkList.hpp"
 #include "Stack.hpp"
 #include "string.hpp"
+#include "Tree.hpp"
 
 using namespace std;
 
@@ -50,6 +51,11 @@ int main(int argc, const char * argv[]) {
     string t = string("abc");
     cout << t << "在主串："<<s <<"中的位置：" << indexSubString(s, t, 0) << endl;
     cout << "---------------------"<< endl;
+    
+    BiTree tree = BiTree();
+    creatBigTree(&tree);
+    
+    preOrderTraverse(tree);
     
      return 0;
 }
