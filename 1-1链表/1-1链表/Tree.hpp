@@ -165,4 +165,9 @@ void PostOrderTraverse(BiTree T);
 //前序创建二叉树
 void creatBigTree(BiTree *T);
 
+
+
+
+
+
 #endif /* Tree_hpp */

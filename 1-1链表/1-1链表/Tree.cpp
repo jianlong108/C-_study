@@ -8,6 +8,8 @@
 
 #include "Tree.hpp"
 #include <iostream>
+#include <vector>
+#include <stack>
 
 using namespace std;
 
@@ -61,3 +63,75 @@ void creatBigTree(BiTree *T)
         }
     }
 }
+
+
+class solutaion {
+    
+public:
+    
+    //前序遍历  根左右
+    vector<char > preorderTraversal(BiTree root)
+    {
+        vector<char>res;
+        stack<BiTree >s;
+        BiTree p = root;
+        while (!s.empty() || p) {
+            if (p) {
+                s.push(p);
+                res.push_back(p->data);
+                p = p->lchild;
+            } else {
+                BiTree t = s.top();
+                s.pop();
+                p = t->rchild;
+            }
+        }
+        
+        return res;
+    }
+    
+    //中序遍历  左根右
+    vector<char > inorderTraversal(BiTree root)
+    {
+        vector<char>res;
+        stack<BiTree >s;
+        BiTree p = root;
+        while (!s.empty() || p) {
+            if (p) {
+                s.push(p);
+                p = p->lchild;
+            } else {
+                BiTree t = s.top();
+                s.pop();
+                res.push_back(t->data);
+                p = p->rchild;
+            }
+        }
+        
+        return res;
+    }
+    
+    //后序遍历  左右根
+    vector<char > backorderTraversal(BiTree root)
+    {
+        vector<char>res;
+        stack<BiTree >s;
+        BiTree p = root;
+        while (!s.empty() || p) {
+            if (p) {
+                s.push(p);
+                p = p->lchild;
+            } else {
+                BiTree t = s.top();
+                s.pop();
+                res.push_back(t->data);
+                p = p->rchild;
+                
+                s.push(p);
+                res.push_back(p->data);
+            }
+        }
+        
+        return res;
+    }
+};
