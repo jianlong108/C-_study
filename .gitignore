@@ -30,8 +30,8 @@
 *.exe
 *.out
 *.app
-
+*.xcuserstate
 # https://www.cnblogs.com/kevingrace/p/5690241.html
-.xcbkplist
+*.xcbkplist
 xcschememanagement.plist
 **/project.xcworkspace
