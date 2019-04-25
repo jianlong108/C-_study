@@ -1,9 +1,9 @@
 //
-//  test.hpp
-//  7-pragma once
+//  6-pragmaOnce.hpp
+//  GrammerOfCpp
 //
-//  Created by Wangjianlong on 2018/11/29.
-//  Copyright © 2018 JL.Com. All rights reserved.
+//  Created by Wangjianlong on 2019/4/25.
+//  Copyright © 2019 JL.Com. All rights reserved.
 //
 
 /*
@@ -17,11 +17,15 @@
  > #ifndef #define #endif 可以针对一个文件中的部分代码,而后者只能针对整个文件
  */
 
-#ifndef test_hpp
-#define test_hpp
+
+
+//#ifndef __pragmaOnce_hpp
+//#define __pragmaOnce_hpp
+
+//#include <stdio.h>
+
+//#endif /* __pragmaOnce_hpp */
+
+#pragma once
 
 #include <stdio.h>
-
-void test();
-
-#endif /* test_hpp */
