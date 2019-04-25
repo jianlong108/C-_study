@@ -12,11 +12,15 @@
 #include "3-externC.hpp"
 #include "4-defaultParameters.hpp"
 #include "5-inline.hpp"
+#include "7-reference.hpp"
 
 int main(int argc, const char * argv[]) {
     helloWorldMain();
     funcReload();
     externCMain();
     defaultParametersMain();
+    
+    referenceMain();
+    
     return 0;
 }

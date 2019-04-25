@@ -15,6 +15,7 @@
 		F4C84DF32271F6B600DB7D3E /* 4-defaultParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DF12271F6B600DB7D3E /* 4-defaultParameters.cpp */; };
 		F4C84DF62271FD4A00DB7D3E /* 5-inline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DF42271FD4A00DB7D3E /* 5-inline.cpp */; };
 		F4C84DF92271FF4100DB7D3E /* 6-pragmaOnce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DF72271FF4100DB7D3E /* 6-pragmaOnce.cpp */; };
+		F4C84DFC227201AA00DB7D3E /* 7-reference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DFA227201AA00DB7D3E /* 7-reference.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		F4C84DF52271FD4A00DB7D3E /* 5-inline.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "5-inline.hpp"; sourceTree = "<group>"; };
 		F4C84DF72271FF4100DB7D3E /* 6-pragmaOnce.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "6-pragmaOnce.cpp"; sourceTree = "<group>"; };
 		F4C84DF82271FF4100DB7D3E /* 6-pragmaOnce.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "6-pragmaOnce.hpp"; sourceTree = "<group>"; };
+		F4C84DFA227201AA00DB7D3E /* 7-reference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "7-reference.cpp"; sourceTree = "<group>"; };
+		F4C84DFB227201AA00DB7D3E /* 7-reference.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "7-reference.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				F4C84DF52271FD4A00DB7D3E /* 5-inline.hpp */,
 				F4C84DF72271FF4100DB7D3E /* 6-pragmaOnce.cpp */,
 				F4C84DF82271FF4100DB7D3E /* 6-pragmaOnce.hpp */,
+				F4C84DFA227201AA00DB7D3E /* 7-reference.cpp */,
+				F4C84DFB227201AA00DB7D3E /* 7-reference.hpp */,
 				F4C84DD22271EE5E00DB7D3E /* main.cpp */,
 			);
 			path = GrammerOfCpp;
@@ -153,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C84DFC227201AA00DB7D3E /* 7-reference.cpp in Sources */,
 				F4C84DF62271FD4A00DB7D3E /* 5-inline.cpp in Sources */,
 				F4C84DF92271FF4100DB7D3E /* 6-pragmaOnce.cpp in Sources */,
 				F4C84DD32271EE5E00DB7D3E /* main.cpp in Sources */,
