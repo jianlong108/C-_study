@@ -76,6 +76,7 @@ void callFunc(int a = 19, void(*func)() = displayTest)
 
 void defaultParametersMain()
 {
+    cout << "====================begin=================" << endl;
     //调用函数时，不传入参数，也会打印 默认值20
     customPrint();
     
@@ -88,4 +89,6 @@ void defaultParametersMain()
     displayValue();
     
     callFunc();
+    
+    cout << "====================end=================" << endl;
 }

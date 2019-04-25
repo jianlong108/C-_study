@@ -11,6 +11,7 @@
 #include "2-funcReLoad.hpp"
 #include "3-externC.hpp"
 #include "4-defaultParameters.hpp"
+#include "5-inline.hpp"
 
 int main(int argc, const char * argv[]) {
     helloWorldMain();
