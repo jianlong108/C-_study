@@ -10,10 +10,12 @@
 #include "1-HelloWorld.hpp"
 #include "2-funcReLoad.hpp"
 #include "3-externC.hpp"
+#include "4-defaultParameters.hpp"
 
 int main(int argc, const char * argv[]) {
     helloWorldMain();
     funcReload();
     externCMain();
+    defaultParametersMain();
     return 0;
 }

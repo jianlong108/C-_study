@@ -12,6 +12,7 @@
 		F4C84DEA2271EEEF00DB7D3E /* 2-funcReLoad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DE72271EEEF00DB7D3E /* 2-funcReLoad.cpp */; };
 		F4C84DED2271EF3600DB7D3E /* 3-externC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DEB2271EF3600DB7D3E /* 3-externC.cpp */; };
 		F4C84DF02271EF5E00DB7D3E /* 3-test.c in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DEF2271EF5E00DB7D3E /* 3-test.c */; };
+		F4C84DF32271F6B600DB7D3E /* 4-defaultParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DF12271F6B600DB7D3E /* 4-defaultParameters.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		F4C84DEC2271EF3600DB7D3E /* 3-externC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "3-externC.hpp"; sourceTree = "<group>"; };
 		F4C84DEE2271EF5E00DB7D3E /* 3-test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-test.h"; sourceTree = "<group>"; };
 		F4C84DEF2271EF5E00DB7D3E /* 3-test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-test.c"; sourceTree = "<group>"; };
+		F4C84DF12271F6B600DB7D3E /* 4-defaultParameters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "4-defaultParameters.cpp"; sourceTree = "<group>"; };
+		F4C84DF22271F6B600DB7D3E /* 4-defaultParameters.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "4-defaultParameters.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				F4C84DEC2271EF3600DB7D3E /* 3-externC.hpp */,
 				F4C84DEE2271EF5E00DB7D3E /* 3-test.h */,
 				F4C84DEF2271EF5E00DB7D3E /* 3-test.c */,
+				F4C84DF12271F6B600DB7D3E /* 4-defaultParameters.cpp */,
+				F4C84DF22271F6B600DB7D3E /* 4-defaultParameters.hpp */,
 				F4C84DD22271EE5E00DB7D3E /* main.cpp */,
 			);
 			path = GrammerOfCpp;
@@ -140,6 +145,7 @@
 			files = (
 				F4C84DD32271EE5E00DB7D3E /* main.cpp in Sources */,
 				F4C84DED2271EF3600DB7D3E /* 3-externC.cpp in Sources */,
+				F4C84DF32271F6B600DB7D3E /* 4-defaultParameters.cpp in Sources */,
 				F4C84DF02271EF5E00DB7D3E /* 3-test.c in Sources */,
 				F4C84DE92271EEEF00DB7D3E /* 1-HelloWorld.cpp in Sources */,
 				F4C84DEA2271EEEF00DB7D3E /* 2-funcReLoad.cpp in Sources */,
