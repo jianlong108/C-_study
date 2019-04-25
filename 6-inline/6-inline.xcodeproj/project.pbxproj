@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		348C991D2271D5C00037B95B /* 1-HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 348C991B2271D5C00037B95B /* 1-HelloWorld.cpp */; };
+		348C99202271DBDD0037B95B /* 2-funcReLoad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 348C991E2271DBDD0037B95B /* 2-funcReLoad.cpp */; };
 		F43235C721AEFAED00E14E18 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43235C621AEFAED00E14E18 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		348C991B2271D5C00037B95B /* 1-HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1-HelloWorld.cpp"; sourceTree = "<group>"; };
+		348C991C2271D5C00037B95B /* 1-HelloWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "1-HelloWorld.hpp"; sourceTree = "<group>"; };
+		348C991E2271DBDD0037B95B /* 2-funcReLoad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2-funcReLoad.cpp"; sourceTree = "<group>"; };
+		348C991F2271DBDD0037B95B /* 2-funcReLoad.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "2-funcReLoad.hpp"; sourceTree = "<group>"; };
 		F43235C321AEFAED00E14E18 /* 6-inline */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6-inline"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43235C621AEFAED00E14E18 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				F43235C621AEFAED00E14E18 /* main.cpp */,
+				348C991B2271D5C00037B95B /* 1-HelloWorld.cpp */,
+				348C991C2271D5C00037B95B /* 1-HelloWorld.hpp */,
+				348C991E2271DBDD0037B95B /* 2-funcReLoad.cpp */,
+				348C991F2271DBDD0037B95B /* 2-funcReLoad.hpp */,
 			);
 			path = "6-inline";
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F43235C721AEFAED00E14E18 /* main.cpp in Sources */,
+				348C991D2271D5C00037B95B /* 1-HelloWorld.cpp in Sources */,
+				348C99202271DBDD0037B95B /* 2-funcReLoad.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

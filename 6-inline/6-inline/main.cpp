@@ -7,6 +7,9 @@
 //
 
 #include <iostream>
+#include "1-HelloWorld.hpp"
+#include "2-funcReLoad.hpp"
+
 using namespace std;
 /*内联函数
  使用inline修饰函数的声明或实现,可以使其c变成内联函数
@@ -48,7 +51,7 @@ inline int multiply (int a , int b)
  
 */
 
-#define sum_define(a) a+a
+#define sum_define(a) (a+a)
 
 inline int sum_inline (int a)
 {
@@ -56,11 +59,15 @@ inline int sum_inline (int a)
  }
 
 int main(int argc, const char * argv[]) {
-    int a = 3;
-    //宏缺少内联函数的函数特性
-    cout << sum_inline(a++) << endl;
-    cout << sum_define(a++) << endl;
     
-    cout << sum(66, 22) << endl;
+    helloWorldMain();
+    funcReload();
+    
+//    int a = 3;
+//    //宏缺少内联函数的函数特性
+//    cout << sum_inline(a++) << endl;
+//    cout << sum_define(a++) << endl;
+//
+//    cout << sum(66, 22) << endl;
     return 0;
 }
