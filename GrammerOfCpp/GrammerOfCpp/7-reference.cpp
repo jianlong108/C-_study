@@ -33,6 +33,20 @@ int & changeG()
     return gA;
 }
 
+void pSwap(int *a,int *b)
+{
+    int tmp = *a;
+    *a = *b;
+    *b = tmp;
+}
+
+void rSwap(int &a,int &b)
+{
+    int tmp = a;
+    a = b;
+    b = tmp;
+}
+
 void referenceMain() {
     cout << "====================begin=================" << endl;
     int age = 10;
@@ -47,6 +61,14 @@ void referenceMain() {
     int &rAge = age;
     rAge = 30;
     cout << age << endl;
+    
+    //不存在引用的引用
+    //int &&rrAge = rAge;
+    
+    //不存在引用的引用
+    //int & *pRage = &rAge;
+    int *p_rAge = &rAge; //相当于 int *p_rAge = &age;
+    
     
     //为枚举定义引用
     Season season;
@@ -65,18 +87,26 @@ void referenceMain() {
     //为指针定义引用
     int height = 100;
     int width = 200;
-    cout << "height 地址 = "<< &height <<endl;
-    cout << "width 地址 = "<< &width <<endl;
+    cout << "变量height 地址 = "<< &height <<endl;
+    cout << "变量width 地址 = "<< &width <<endl;
     
     int *a = &height;
     int *b = &width;
+    
+    
+    cout << "指针变量 a  = "<< a <<endl;
+    cout << "指针变量 b  = "<< b <<endl;
+    
     int *&rA = a;
-    //指针a也指向了width.
+    cout << "引用变量 rA  = "<< rA <<endl;
+    //这个不是将b赋值给引用变量rA，而是将b赋值给a( a = b )
+    //此时 指针a也指向了width.
     rA = b;
     
-    cout << "a  = "<< a <<endl;
-    cout << "b  = "<< b <<endl;
-    cout << "rA  = "<< rA <<endl;
+    //操作指针变量a，使其指向age变量
+    a = &age;
+    
+    cout << "引用变量 rA  = "<< rA <<endl;
     //此时修改a指向的变量的值,相当于修改width的值
     //    *a = 300;
     //    cout << "height = " << height << endl;
@@ -90,6 +120,10 @@ void referenceMain() {
     
     //为数组定义引用
     int array[] = {1,2,3};
+    
+    //不存在引用数组
+//    int &rArray[] = array;
+    
     int (&rArray)[3] = array;
     cout << rArray[1] << endl;
     
@@ -106,6 +140,7 @@ void referenceMain() {
     cout << pW << endl;
     cout << rW << endl;
     
+    //引用的价值。。。修改函数返回值
     changeG() = 66;
     cout << gA << endl;
     
@@ -117,6 +152,20 @@ void referenceMain() {
     cout << "score = " << score << endl;
     cout << "rScore = " << rScore << endl;
     cout << "rScore1 = " << rScore1 << endl;
+    
+    int sA = 10;
+    int sB = 20;
+    cout << sA << endl;
+    cout << sB << endl;
+    
+    pSwap(&sA, &sB);
+    cout << sA << endl;
+    cout << sB << endl;
+    
+    
+    rSwap(sA, sB);
+    cout << sA << endl;
+    cout << sB << endl;
     
     cout << "====================end=================" << endl;
 }

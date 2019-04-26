@@ -15,7 +15,7 @@
 #include "7-reference.hpp"
 
 int main(int argc, const char * argv[]) {
-    helloWorldMain();
+//    helloWorldMain();
     funcReload();
     externCMain();
     defaultParametersMain();
