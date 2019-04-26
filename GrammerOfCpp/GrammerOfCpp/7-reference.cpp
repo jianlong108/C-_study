@@ -49,7 +49,7 @@ void rSwap(int &a,int &b)
 
 void referenceMain() {
 //    cout << "====================begin=================" << endl;
-    
+    //lea 将地址值 存存储到寄存器。。基本在操作指针
     /*
      leaq   -0x1cc(%rbp), %rax
      leaq   -0x1ac(%rbp), %rcx ||  将地址 -0x1ac(%rbp) 写入rcx中
