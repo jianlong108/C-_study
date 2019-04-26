@@ -13,6 +13,7 @@
 #include "4-defaultParameters.hpp"
 #include "5-inline.hpp"
 #include "7-reference.hpp"
+#include "8-const.hpp"
 
 int main(int argc, const char * argv[]) {
 //    helloWorldMain();
@@ -21,6 +22,6 @@ int main(int argc, const char * argv[]) {
     defaultParametersMain();
     
     referenceMain();
-    
+    constMain();
     return 0;
 }

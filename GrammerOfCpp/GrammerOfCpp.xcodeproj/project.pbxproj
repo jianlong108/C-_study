@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		348C99232272B8DC0037B95B /* 8-const.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 348C99212272B8DC0037B95B /* 8-const.cpp */; };
 		F4C84DD32271EE5E00DB7D3E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DD22271EE5E00DB7D3E /* main.cpp */; };
 		F4C84DE92271EEEF00DB7D3E /* 1-HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DE52271EEEF00DB7D3E /* 1-HelloWorld.cpp */; };
 		F4C84DEA2271EEEF00DB7D3E /* 2-funcReLoad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DE72271EEEF00DB7D3E /* 2-funcReLoad.cpp */; };
@@ -31,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		348C99212272B8DC0037B95B /* 8-const.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "8-const.cpp"; sourceTree = "<group>"; };
+		348C99222272B8DC0037B95B /* 8-const.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "8-const.hpp"; sourceTree = "<group>"; };
 		F4C84DCF2271EE5E00DB7D3E /* GrammerOfCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GrammerOfCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C84DD22271EE5E00DB7D3E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F4C84DE52271EEEF00DB7D3E /* 1-HelloWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1-HelloWorld.cpp"; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 				F4C84DF82271FF4100DB7D3E /* 6-pragmaOnce.hpp */,
 				F4C84DFA227201AA00DB7D3E /* 7-reference.cpp */,
 				F4C84DFB227201AA00DB7D3E /* 7-reference.hpp */,
+				348C99212272B8DC0037B95B /* 8-const.cpp */,
+				348C99222272B8DC0037B95B /* 8-const.hpp */,
 				F4C84DD22271EE5E00DB7D3E /* main.cpp */,
 			);
 			path = GrammerOfCpp;
@@ -162,6 +167,7 @@
 				F4C84DF62271FD4A00DB7D3E /* 5-inline.cpp in Sources */,
 				F4C84DF92271FF4100DB7D3E /* 6-pragmaOnce.cpp in Sources */,
 				F4C84DD32271EE5E00DB7D3E /* main.cpp in Sources */,
+				348C99232272B8DC0037B95B /* 8-const.cpp in Sources */,
 				F4C84DED2271EF3600DB7D3E /* 3-externC.cpp in Sources */,
 				F4C84DF32271F6B600DB7D3E /* 4-defaultParameters.cpp in Sources */,
 				F4C84DF02271EF5E00DB7D3E /* 3-test.c in Sources */,

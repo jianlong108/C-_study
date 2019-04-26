@@ -48,19 +48,40 @@ void rSwap(int &a,int &b)
 }
 
 void referenceMain() {
-    cout << "====================begin=================" << endl;
+//    cout << "====================begin=================" << endl;
+    
+    /*
+     leaq   -0x1cc(%rbp), %rax
+     leaq   -0x1ac(%rbp), %rcx ||  将地址 -0x1ac(%rbp) 写入rcx中
+    
+     movl   $0xa, -0x1ac(%rbp) ||  将10 写入到 地址-0x1ac(%rbp):age中 即 ==> age = 10;
+     movq   %rcx, -0x1b8(%rbp) ||  将rcx存储的内容：变量age地址 写入 -0x1b8(%rbp):pAge 对应的内存中 ==> int *pAge = &age;
+     movq   -0x1b8(%rbp), %rdx ||
+     movl   $0x14, (%rdx)      ||  将20 写入到 rdx存储的地址:变量age地址 中 即 ==> *pAge = 20;
+     movq   %rcx, -0x1c0(%rbp) ||  将rcx存储的内容：变量age地址 写入 -0x1c0(%rbp):rAge 地址中 ==> int &rAge = age;
+     movq   -0x1c0(%rbp), %rcx ||  将rAge的地址值 -0x1c0(%rbp) 写入到rcx中
+     movl   $0x1e, (%rcx)      ||  将30 写入到 rcx中 ==> rAge = 30;
+     movq   -0x1c0(%rbp), %rcx ||  将rAge的地址值 -0x1c0(%rbp) 写入到rcx中
+     movq   %rcx, -0x1c8(%rbp) ||  将rcx的值 写入到内存 -0x1c8(%rbp):p_rAge ==> int *p_rAge = &rAge;
+     movq   %rax, -0x1d8(%rbp) ||  ==> Season season;
+     movq   -0x1d8(%rbp), %rax ||  ==> Season &rSeason = season;
+     movl   $0x3, (%rax)       ||  ==> rSeason = winter;
+     
+     
+     */
+    
     int age = 10;
     
     //定义指针
     int *pAge = &age;
     
     *pAge = 20;
-    cout << age << endl;
+//    cout << age << endl;
     
     //定义引用
     int &rAge = age;
     rAge = 30;
-    cout << age << endl;
+//    cout << age << endl;
     
     //不存在引用的引用
     //int &&rrAge = rAge;
