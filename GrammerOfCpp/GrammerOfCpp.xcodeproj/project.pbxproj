@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		348B65EF2275A2D700176B05 /* 9-StructAndClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 348B65ED2275A2D700176B05 /* 9-StructAndClass.cpp */; };
 		348C99232272B8DC0037B95B /* 8-const.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 348C99212272B8DC0037B95B /* 8-const.cpp */; };
 		F4C84DD32271EE5E00DB7D3E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DD22271EE5E00DB7D3E /* main.cpp */; };
 		F4C84DE92271EEEF00DB7D3E /* 1-HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DE52271EEEF00DB7D3E /* 1-HelloWorld.cpp */; };
@@ -32,6 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		348B65ED2275A2D700176B05 /* 9-StructAndClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "9-StructAndClass.cpp"; sourceTree = "<group>"; };
+		348B65EE2275A2D700176B05 /* 9-StructAndClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "9-StructAndClass.hpp"; sourceTree = "<group>"; };
 		348C99212272B8DC0037B95B /* 8-const.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "8-const.cpp"; sourceTree = "<group>"; };
 		348C99222272B8DC0037B95B /* 8-const.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "8-const.hpp"; sourceTree = "<group>"; };
 		F4C84DCF2271EE5E00DB7D3E /* GrammerOfCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GrammerOfCpp; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +105,8 @@
 				F4C84DFB227201AA00DB7D3E /* 7-reference.hpp */,
 				348C99212272B8DC0037B95B /* 8-const.cpp */,
 				348C99222272B8DC0037B95B /* 8-const.hpp */,
+				348B65ED2275A2D700176B05 /* 9-StructAndClass.cpp */,
+				348B65EE2275A2D700176B05 /* 9-StructAndClass.hpp */,
 				F4C84DD22271EE5E00DB7D3E /* main.cpp */,
 			);
 			path = GrammerOfCpp;
@@ -173,6 +178,7 @@
 				F4C84DF02271EF5E00DB7D3E /* 3-test.c in Sources */,
 				F4C84DE92271EEEF00DB7D3E /* 1-HelloWorld.cpp in Sources */,
 				F4C84DEA2271EEEF00DB7D3E /* 2-funcReLoad.cpp in Sources */,
+				348B65EF2275A2D700176B05 /* 9-StructAndClass.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

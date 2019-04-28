@@ -14,6 +14,7 @@
 #include "5-inline.hpp"
 #include "7-reference.hpp"
 #include "8-const.hpp"
+#include "9-StructAndClass.hpp"
 
 int main(int argc, const char * argv[]) {
 //    helloWorldMain();
@@ -23,5 +24,7 @@ int main(int argc, const char * argv[]) {
     
     referenceMain();
     constMain();
+    
+    nineMain();
     return 0;
 }
