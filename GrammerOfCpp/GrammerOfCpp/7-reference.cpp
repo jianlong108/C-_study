@@ -146,7 +146,15 @@ void referenceMain() {
 //    int &rArray[] = array;
     
     int (&rArray)[3] = array;
-    cout << rArray[1] << endl;
+    cout << "数组引用：" << rArray[1] << endl;
+    
+    //指向数组的指针
+    int *pArr = array;
+    cout << "数组指针：" << pArr[2] << endl;
+    
+    // 指针的常引用 可以表示数组
+    int * const &rArr = array;
+    cout << "指针的常引用：" << rArr[0] << endl;
     
     //    int *pA[4];//pA是数组,里面放着4个int *的指针
     //    int (*pB)[4];//pA是指向数组的指针,且数组中存放的是4个int
@@ -176,17 +184,21 @@ void referenceMain() {
     
     int sA = 10;
     int sB = 20;
-    cout << sA << endl;
-    cout << sB << endl;
+    cout << "sA = " << sA << endl;
+    cout << "sB = "<< sB << endl;
+    //表达式被赋值
+    (sA = sB) = 30;
+    cout << "sA = " << sA << endl;
     
     pSwap(&sA, &sB);
     cout << sA << endl;
     cout << sB << endl;
     
-    
     rSwap(sA, sB);
     cout << sA << endl;
     cout << sB << endl;
+    
+    
     
     cout << "====================end=================" << endl;
 }
