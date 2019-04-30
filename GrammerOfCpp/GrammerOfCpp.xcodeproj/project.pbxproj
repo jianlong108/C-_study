@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		348B65EF2275A2D700176B05 /* 9-StructAndClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 348B65ED2275A2D700176B05 /* 9-StructAndClass.cpp */; };
+		348B65F22276DF8300176B05 /* 10-NameSpace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 348B65F02276DF8300176B05 /* 10-NameSpace.cpp */; };
 		348C99232272B8DC0037B95B /* 8-const.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 348C99212272B8DC0037B95B /* 8-const.cpp */; };
 		F4C84DD32271EE5E00DB7D3E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DD22271EE5E00DB7D3E /* main.cpp */; };
 		F4C84DE92271EEEF00DB7D3E /* 1-HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C84DE52271EEEF00DB7D3E /* 1-HelloWorld.cpp */; };
@@ -35,6 +36,8 @@
 /* Begin PBXFileReference section */
 		348B65ED2275A2D700176B05 /* 9-StructAndClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "9-StructAndClass.cpp"; sourceTree = "<group>"; };
 		348B65EE2275A2D700176B05 /* 9-StructAndClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "9-StructAndClass.hpp"; sourceTree = "<group>"; };
+		348B65F02276DF8300176B05 /* 10-NameSpace.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10-NameSpace.cpp"; sourceTree = "<group>"; };
+		348B65F12276DF8300176B05 /* 10-NameSpace.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "10-NameSpace.hpp"; sourceTree = "<group>"; };
 		348C99212272B8DC0037B95B /* 8-const.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "8-const.cpp"; sourceTree = "<group>"; };
 		348C99222272B8DC0037B95B /* 8-const.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "8-const.hpp"; sourceTree = "<group>"; };
 		F4C84DCF2271EE5E00DB7D3E /* GrammerOfCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GrammerOfCpp; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +110,8 @@
 				348C99222272B8DC0037B95B /* 8-const.hpp */,
 				348B65ED2275A2D700176B05 /* 9-StructAndClass.cpp */,
 				348B65EE2275A2D700176B05 /* 9-StructAndClass.hpp */,
+				348B65F02276DF8300176B05 /* 10-NameSpace.cpp */,
+				348B65F12276DF8300176B05 /* 10-NameSpace.hpp */,
 				F4C84DD22271EE5E00DB7D3E /* main.cpp */,
 			);
 			path = GrammerOfCpp;
@@ -172,6 +177,7 @@
 				F4C84DF62271FD4A00DB7D3E /* 5-inline.cpp in Sources */,
 				F4C84DF92271FF4100DB7D3E /* 6-pragmaOnce.cpp in Sources */,
 				F4C84DD32271EE5E00DB7D3E /* main.cpp in Sources */,
+				348B65F22276DF8300176B05 /* 10-NameSpace.cpp in Sources */,
 				348C99232272B8DC0037B95B /* 8-const.cpp in Sources */,
 				F4C84DED2271EF3600DB7D3E /* 3-externC.cpp in Sources */,
 				F4C84DF32271F6B600DB7D3E /* 4-defaultParameters.cpp in Sources */,

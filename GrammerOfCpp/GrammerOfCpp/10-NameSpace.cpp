@@ -1,12 +1,14 @@
 //
-//  main.cpp
-//  10-nameSpace
+//  10-NameSpace.cpp
+//  GrammerOfCpp
 //
-//  Created by wangjianlong on 2018/12/21.
-//  Copyright © 2018 wangjianlong. All rights reserved.
+//  Created by wangjianlong on 2019/4/29.
+//  Copyright © 2019 JL.Com. All rights reserved.
 //
 
+#include "10-NameSpace.hpp"
 #include <iostream>
+
 using namespace std;
 
 namespace JL {
@@ -52,7 +54,7 @@ namespace jianlong {
 }
 
 
-int main(int argc, const char * argv[]) {
+void tenMain() {
     JL::g_no = 10;
     WJL::g_no = 20;
     
@@ -76,5 +78,4 @@ int main(int argc, const char * argv[]) {
     wangjianlong::Person *p5 = new wangjianlong::Person();
     p5->run();
     
-    return 0;
 }
