@@ -13,6 +13,6 @@
 
 void defaultParametersMain();
 
-void funcDeclare(int a = 11);
+//void funcDeclare(int a = 11);
 
 #endif /* __defaultParameters_hpp */

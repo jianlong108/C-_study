@@ -19,6 +19,7 @@ using namespace std;
  */
 
 //ERROR Missing default argument on parameter 'b'
+//默认参数只能按照从右向左的顺序
 //void errorFunc(int a = 10, int b)
 //{
 //
@@ -26,7 +27,10 @@ using namespace std;
 
 
 // 如果函数同时有声明，实现，默认参数只能放在函数声明中
-void funcDeclare(int a)
+//void funcDeclare(int a = 11);
+
+//Redefinition of default argument
+void funcDeclare(int a = 10)
 {
     cout << "void funcDeclare(int a)  " << a << endl;
 }
@@ -50,7 +54,7 @@ int adjustingValue(int a = 20 ,int b = 30)
 
 string g_a = "hhh";
 
-void displayValue (string a = g_a)
+void displayGlobalValue (string a = g_a)
 {
     cout << "void displayValue (string a = g_a)" << a << endl;
 }
@@ -82,11 +86,11 @@ void defaultParametersMain()
     
     //调用产生二义性。调用上述两个函数都可以
     //ERROR: Call to 'adjustingValue' is ambiguous
-    //adjustingValue();
+//    adjustingValue();
     
     funcDeclare();
     
-    displayValue();
+    displayGlobalValue();
     
     callFunc();
     

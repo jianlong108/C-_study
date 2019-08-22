@@ -48,14 +48,19 @@ int sum (int a, int b, int c)
     return a + b + c;
 }
 
-void test(int a)
-{
-    
-}
+//void test(int a)
+//{
+//    cout << "void test(int a)" << a << endl;
+//}
 
 void test(double a)
 {
-    
+    cout << "void test(double a)" << a << endl;
+}
+
+void test(long a)
+{
+    cout << "void test(long a)" << a << endl;
 }
 
 void funcReload()
@@ -65,10 +70,12 @@ void funcReload()
     cout << sum(10, 90) << endl;
     cout << sum(10.0, 90) << endl;
     cout << sum(10, 90, 100) << endl;
+ 
+    cout << "====================end=================" << endl;
+    
     
     //调用二义性
-    //Invalid operands to binary expression ('std::__1::ostream' (aka 'basic_ostream<char>') and 'void')
-    //    cout << test(10) << endl;
-    
-    cout << "====================end=================" << endl;
+    //Call to 'test' is ambiguous
+    //当函数void test(int a) 存在时，test(10)会显示的调用它。但当该函数被注释掉，test(10) 其中10在隐式转换中，既可以转换为long类型，也可以转化为double类型。所以产生了二义性
+    test(10);//void test(int a)10
 }
