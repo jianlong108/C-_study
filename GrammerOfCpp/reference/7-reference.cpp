@@ -12,7 +12,7 @@
 using namespace std;
 
 //定义枚举
-enum Season{
+enum Season {
     spring,
     summer,
     fall,
@@ -33,6 +33,7 @@ int & changeG()
     return gA;
 }
 
+//两种交换两个数的方式
 void pSwap(int *a,int *b)
 {
     int tmp = *a;
@@ -48,7 +49,6 @@ void rSwap(int &a,int &b)
 }
 
 void referenceMain() {
-//    cout << "====================begin=================" << endl;
     //lea 将地址值 存存储到寄存器。。基本在操作指针
     /*
      leaq   -0x1cc(%rbp), %rax
@@ -76,19 +76,17 @@ void referenceMain() {
     int *pAge = &age;
     
     *pAge = 20;
-//    cout << age << endl;
     
     //定义引用
     int &rAge = age;
     rAge = 30;
-//    cout << age << endl;
     
     //不存在引用的引用
     //int &&rrAge = rAge;
     
     //不存在引用的引用
     //int & *pRage = &rAge;
-    int *p_rAge = &rAge; //相当于 int *p_rAge = &age;
+//    int *p_rAge = &rAge; //相当于 int *p_rAge = &age;
     
     
     //为枚举定义引用

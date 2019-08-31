@@ -10,9 +10,9 @@
 #include <iostream>
 
 //使用C语言 的文件
-//extern "C" {
-//    #include "3-test.h"
-//}
+extern "C" {
+    #include "3-test.h"
+}
 
 #include "3-test.h"
 
