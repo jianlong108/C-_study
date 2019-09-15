@@ -234,9 +234,9 @@ void initTest()
  */
 
 //全局区
-Animal g_a; //调用Animal()，成员变量初始化为0
-Animal g_a1(); //这是一个函数声明，函数名叫g_a1，返回值类型是Animal，无参
-Animal g_a2(6); //调用Animal(int age)
+//Animal g_a; //调用Animal()，成员变量初始化为0
+//Animal g_a1(); //这是一个函数声明，函数名叫g_a1，返回值类型是Animal，无参
+//Animal g_a2(6); //调用Animal(int age)
 
 void callContructFunc()
 {

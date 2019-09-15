@@ -11,10 +11,31 @@
 
 using namespace std;
 
+int g_no;
+
+//namespace JL {
+//    //声明全局变量
+//    int g_no;
+//
+//    class Person{
+//    public:
+//        int age;
+//        void run(){
+//            cout << "JL person running" << g_no << endl;
+//        }
+//    };
+//
+//}
+//
+//namespace JL {
+//    char *name;
+//}
+
 namespace JL {
+    char *name;
     //声明全局变量
     int g_no;
-    
+
     class Person{
     public:
         int age;
@@ -22,7 +43,6 @@ namespace JL {
             cout << "JL person running" << g_no << endl;
         }
     };
-    
 }
 
 namespace WJL {
@@ -54,7 +74,11 @@ namespace jianlong {
 }
 
 
+
+
 void tenMain() {
+    ::g_no = 20;
+    
     JL::g_no = 10;
     WJL::g_no = 20;
     
@@ -65,12 +89,12 @@ void tenMain() {
     p1->run();
     
     using namespace WJL;
-    g_no = 30;
+    WJL::g_no = 30;
     Person *p3 = new Person();
     p3->run();
     
     using namespace jianlong;
-    g_no = 40;
+    wangjianlong::g_no = 40;
     Person *p4 = new Person();
     p4->run();
     

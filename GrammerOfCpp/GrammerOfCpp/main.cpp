@@ -8,15 +8,14 @@
 
 #include <iostream>
 #include "1-HelloWorld.hpp"
-#include "7-reference.hpp"
 #include "8-const.hpp"
 #include "9-StructAndClass.hpp"
 
 int main(int argc, const char * argv[]) {
 //    helloWorldMain();
-    referenceMain();
-    constMain();
+//    referenceMain();
+//    constMain();
     
-    nineMain();
+//    nineMain();
     return 0;
 }
